@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Summarizer</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <section class="myheaderr bg-primary-subtle ">
+        <div class="container py-3">
+            <div class="row">
+                <div class="col-md-3 pe-5">
+                    <img src="img/logo-optimized.svg " class="img-fluid" alt="Logo">
+                </div>
+                <div class="col-md-4 ">
+                    <div class="input-group mb-3 py-2">
+                        <input type="text" class="form-control" placeholder="Từ Khóa tím kiếm" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <span class="input-group-text" id="basic-addon2">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                     </div>
+                </div>
+                <div class="col-md-3 py-2">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Chức năng
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="ThemModel.html">Thêm Model</a></li>
+                          <li><a class="dropdown-item" href="SuaModel.html">Sửa Model</a></li>
+                          <li><a class="dropdown-item" href="XoaModel.html">Xóa Model</a></li>
+                        </ul>
+                      </div>
+                </div>
+                <div class="col-md-2 py-2">
+                    <a href="log.html" class="btn btn-primary">
+                        Đăng nhập 
+                      </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mymainmenu">
+        <div class="container">
+            <div class="row">
+                <div class="row justify-content-around">
+                    <form  class="col-md-6 bg-light custom-form" >
+                        <h1 class="text-center text-uppercase h3 py-1">Thông tin Model</h1>
+                        <div class="form-group custom-row py-1">
+                            <label>ID</label>
+                            <input type="text" class="form-control" value=>
+                        </div>
+                        <div class="form-group custom-row py-1">
+                            <label>NAME</label>
+                            <input type="text" class="form-control" value=>
+                        </div>
+                        <div class="form-group custom-row py-1">
+                            <label>URL</label>
+                            <input type="text" class="form-control" value=>
+                        </div>  
+                        <div class="form-group custom-row py-1">
+                            <label>Description</label>
+                            <input type="text" class="form-control" value=>
+                        </div>  
+                        <div class="form-group custom-row ">
+                            <label>ACC</label>
+                            <input type="text" class="form-control" value=>
+                        </div>  
+                        <div class="form-group custom-row py-1">
+                            <label>PRE</label>
+                            <input type="text" class="form-control" value=>
+                        </div>  
+                        <div class="form-group custom-row py-1">
+                            <label>REC</label>
+                            <input type="text" class="form-control" value=>
+                        </div>  
+                        <div class="form-group custom-row ">
+                            <label>F1</label>
+                            <input type="text" class="form-control py-1" value=>
+                        </div>  
+                        <div class="form-group custom-row py-1">
+                            <label>ID Admin</label>
+                            <input type="text" class="form-control" value=>
+                        </div>  
+                        <a href="index.jsp" class="btn btn-primary w-100 py-1">Xóa Model</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="mymaincontenty"></section>
+    <section class="myfooter"></section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
